@@ -1,0 +1,81 @@
+
+.card {
+    width: 300px;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 20px 30px -10px rgba(56, 104, 107, 0.596);
+    background-color: #fff;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .c-h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .c-input {
+    border: 1px solid #ccc;
+    height: 35px;
+    width: 100%;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 5px;
+  }
+  
+  .c-table label {
+    text-align: left;
+    font-size: 16px;
+  }
+  
+  .c-table button {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #33c3c3;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+  }
+  
+  .c-table button:hover {
+    background-color: #1a8f8f;
+  }
+  
+  .c-newuser {
+    font-size: 14px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #33c3c3;
+  }
+  
+  a:hover {
+    color: #1a8f8f;
+  }
+  .c-input.active + .floating-label {
+    top: -12px;
+    font-size: 12px;
+    color: #33c3c3;
+  }
+  
+  .floating-label {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    font-size: 16px;
+    color: #777;
+    pointer-events: none;
+    transition: 0.2s ease;
+  }
+  .flex-box{
+    display:flex;
+  }

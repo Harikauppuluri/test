@@ -1,0 +1,80 @@
+
+.card {
+    width: 350px;
+    height: auto;
+    margin-top: 30px;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 20px 30px -10px rgba(56, 104, 107, 0.596);
+    background-color: #fff;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .c-h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #263238;
+  }
+  
+  .c-input {
+    border: 1px solid #ccc;
+    height: 35px;
+    width: 100%;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 5px;
+  }
+  
+  .c-table label {
+    text-align: left;
+    font-size: 16px;
+  }
+  
+  .c-table button {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    
+    background-color: #263238;
+    color:#ffffff;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+  }
+  
+  .c-table button:hover {
+    background-color: #263238;
+    color:#92e3a9;
+  }
+  
+  .c-newuser {
+    font-size: 14px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #51bf7bff;
+  }
+  
+  a:hover {
+    color: #51bf7bff;
+  }
+  .flex-box{
+    display:flex;
+  }
+  .div-404{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .oops-img{
+    width: 700px;
+    height: 700px;
+    
+  }
+  
